@@ -100,3 +100,14 @@
   vertical-align: top;
   font-weight: bold;
 }
+
+a {
+  float:left;
+  overflow: auto;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
